@@ -1,0 +1,15 @@
+### set up environment variable
+* in terminal, '$Env:<key> = <hostname>' ('<key>' is the env variable, '<hostname>' is the actual env name)
+* alternatively, in Linux, '~ export <key>=<hostname>'
+    * 'echo $<key>' to output the actual env name
+* 'os.environ.get(<variable name>)' <-- get the value of the variable
+    * the value of the variable is only retained for one session
+
+### exception handling
+* the keyword 'pass' in try-except block allows to continue with the process without ending the program due to error
+
+### connect to DB
+* use 'SQL Alchemy' + 'Psycopg2' to connect to DB
+    * 'SQL Alchemy' is a ORM (Object relational mapping) system
+* syntax to set up a DB connection string
+    * [db_type]://[username]:[password]@[DNS alias or IP address]:[port_number]/[db_name]

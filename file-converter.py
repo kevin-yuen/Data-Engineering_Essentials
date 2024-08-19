@@ -1,3 +1,7 @@
+# Author: Kevin Yuen
+# Github username: kevin-yuen
+# Date: 8/16/2024
+# Description: Convert csv files to json format
 import json
 import glob
 import os
