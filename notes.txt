@@ -13,3 +13,29 @@
     * 'SQL Alchemy' is a ORM (Object relational mapping) system
 * syntax to set up a DB connection string
     * [db_type]://[username]:[password]@[DNS alias or IP address]:[port_number]/[db_name]
+
+### GCP Shell
+* 'gsutil list' - access Cloud Storage from the command line
+* in Terminal / GCP Shell, 'gcloud init' - initialized GCP CLI environment
+
+### Types of DB  |  Use Cases                                                   |     Technologies (examples)
+* RDBMS          |  OMS (Order Mgmt Sys), POS                                   |  Oracle, SQL Server, Postgres
+* Data Lake      |  data from all relevant sources                              |  AWS s3, Azure Storage Accounts
+* DWH            |  reports and dashboards                                      |  Snowflake, Databricks, Teradata
+* NoSQL          |  operational stores (e.g. catalogs for e-comm app, chats)    |  MongoDB, AWS DynamoDB, Azure (multiple)
+* Graph          |  networks (e.g. professional network, friends network)       |  Neo4j
+* Search         |  quick search per criteria                                   |  ElasticSearch
+
+### Characteristics of Big Data
+* volume - the size of the data
+* velocity - the speed of data generating and processing
+* variety - different types and formats of data
+
+### Overview of Data Processing
+* Sources   |   Process     |   Sinks
+*----------------------------------------
+* Files,    |    ETL,       |   Files,
+* DBs,      |    Libraries, |   DBs,
+* REST      |    Frameworks |   REST
+   Payloads |               |    Payloads
+
