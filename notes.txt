@@ -30,12 +30,3 @@
 * volume - the size of the data
 * velocity - the speed of data generating and processing
 * variety - different types and formats of data
-
-### Overview of Data Processing
-* Sources   |   Process     |   Sinks
-*----------------------------------------
-* Files,    |    ETL,       |   Files,
-* DBs,      |    Libraries, |   DBs,
-* REST      |    Frameworks |   REST
-   Payloads |               |    Payloads
-
